@@ -48,7 +48,7 @@ export default function Footer() {
           {/* Column 1: Brand & Description (approx 3 cols) */}
           <div className="lg:col-span-3 lg:pr-8 flex flex-col justify-start">
             <Link href="/" className="inline-block">
-              <BioMedLogo variant="light" />
+              <img src="/img/logo.png" alt="BioMED Logo" className="h-9 w-auto object-contain" />
             </Link>
             <p className="mt-4 text-[13px] leading-relaxed text-white/90 font-normal max-w-xs">
               Des solutions innovantes pour une hygiène bucco-dentaire efficace,
